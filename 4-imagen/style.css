@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-img {
+  height: auto;
+  display: flex;
+}
+
+.imagen-a-mostrar {
+  width: 100%;
+}
+
+.chica {
+  width: 200px;
+}
+
+.mediana {
+  width: 400px;
+}
+
+.grande {
+  width: 600px;
+}
