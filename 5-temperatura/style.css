@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amiko', sans-serif;
+  background-color: #A5A5A5;
+}
+
+.cotenedor-h1 {
+  margin: 30px;
+  padding: 20px;
+  width: 500px;
+  border-radius: 20px 0;
+  border: 2px solid #000;
+}
+
+#titulo-principal {
+ font-size: 35px;
+ color: #fff;
+ text-align: center;
+}
