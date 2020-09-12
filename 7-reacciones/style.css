@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Amiko', sans-serif;
+  height: 100vh;
+  margin: 60px 40px;
+}
+.post {
+  padding: 60px 40px;
+  border-radius: 10px;
+  border: 1px solid #959595;
+  background-color: #EAD9F2;
+  width: 700px;
+}
+
+.name, .text {
+  margin-bottom: 30px;
+}
+
+#reactions {
+  margin-right: 30px;
+  background-color: #AEAEAE;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
