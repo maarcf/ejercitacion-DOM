@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.barra-contenedora {
+  border: 1px solid #000;
+  border-radius: 50px;
+  background-color: #CECECE;
+  width: 800px;
+  height: 20px;
+  padding: 3px;
+  margin: 60px;
+}
+.barra-progreso {
+  background-color: #6ACC1A;
+  border-radius: 50px;
+  height: 20px;
+}
