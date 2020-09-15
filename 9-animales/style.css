@@ -1,0 +1,11 @@
+.animal {
+  width: 300px;
+  height: auto;
+  margin: 15px;
+}
+.animal img {
+  width: 100%;
+}
+.no-mostrar {
+  display: none;
+}
