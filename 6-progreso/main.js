@@ -4,10 +4,11 @@
 
 const rtaProgreso = prompt('¿Cuál es el porcentaje de progreso?');
 const barraProgreso = document.querySelector('.barra-progreso');
+const porcentajeCompletado = document.querySelector('.porcentaje-completado');
 
 const calcularPorcentaje = num => {
   num = Number(num);
   let porcentaje = (num / 100) * 800 //ese 800 es el width de la barra contenedora
-  return barraProgreso.style.width = `${porcentaje}px`
+  return (barraProgreso.style.width = `${porcentaje}px`) && (porcentajeCompletado.textContent = `${num}% completado`)
 }
 calcularPorcentaje(rtaProgreso)
